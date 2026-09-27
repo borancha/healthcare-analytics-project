@@ -63,7 +63,46 @@ The dashboard should include:
 9. Which states have the highest claim volume?
 10. Are there patterns between length of stay and claim amount?
 
-## 6. Expected Deliverables
+## 6. Functional Requirements
+
+The solution should allow users to:
+
+- View overall healthcare claims and patient KPIs.
+- Filter analysis by relevant patient, claim, provider, diagnosis, insurance, and geographic attributes.
+- Analyze claim amounts across different categories.
+- Compare claim volume and claim amounts over time.
+- Review claim status distribution.
+- Identify diagnoses and providers associated with higher claim amounts.
+- Review patient utilization patterns.
+- Interactively explore the data through Power BI visualizations.
+
+## 7. Data Requirements
+
+The analysis requires healthcare claims and patient-level information, including relevant fields such as:
+
+- Patient information
+- Patient demographics
+- Diagnosis
+- Provider
+- Insurance type
+- Claim amount
+- Claim status
+- Claim type
+- State
+- Hospital admission/discharge information
+- Length of stay
+- Claim date or relevant date fields
+
+## 8. Assumptions
+
+- The dataset is assumed to represent a sample healthcare claims population for analytical purposes.
+- Claim amounts are assumed to be recorded consistently within the dataset.
+- Patient identifiers are assumed to be unique where applicable.
+- Missing or inconsistent data may affect certain calculations.
+- The analysis identifies patterns in the available data and does not establish causation.
+- Findings should be validated with appropriate business stakeholders before operational decisions are made.
+
+## 9. Expected Deliverables
 
 - Cleaned healthcare claims dataset
 - SQL analysis
@@ -72,7 +111,7 @@ The dashboard should include:
 - Business insights
 - Documentation of requirements and analysis
 
-## 7. Stakeholders
+## 10. Stakeholders
 
 Potential stakeholders include:
 
@@ -82,6 +121,22 @@ Potential stakeholders include:
 - Provider Management Team
 - Business Intelligence / Analytics Team
 
-## 8. Success Criteria
+## 11. Acceptance Criteria
+
+The project will meet the requirements when:
+
+- Required healthcare data is available and suitable for analysis.
+- Key KPIs can be calculated from the available data.
+- Users can interact with the Power BI dashboard using relevant filters.
+- Claim costs and utilization can be analyzed across relevant dimensions.
+- Monthly trends can be reviewed.
+- Claim status and denial metrics can be analyzed.
+- The dashboard provides a clear view of the defined business questions.
+- Python and SQL analysis support the overall analytical objectives.
+- Project documentation clearly describes the requirements, analysis, and deliverables.
+
+## 12. Success Criteria
 
 The project will be considered successful when stakeholders can use the dashboard to quickly understand healthcare claim costs, utilization patterns, claim status, and major trends.
+
+The completed solution should provide a structured analytical workflow from business requirements through data analysis and visualization.
