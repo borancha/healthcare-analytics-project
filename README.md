@@ -278,6 +278,26 @@ healthcare-analytics-project/
 * SQLite
 * GitHub
 ---
+
+---
+## Key Business Insights
+
+The analysis provides a high-level view of healthcare claims volume, cost, utilization, and claim outcomes.
+
+### Key Findings
+
+* **5,000 healthcare claims** were analyzed.
+* Total claim amount was approximately **$41.29M**.
+* The average claim amount was **$8,258.41**.
+* **78.14% of claims were paid**, while **14.22% were pending** and **7.64% were denied**.
+* Average length of stay was **4.7 days**.
+* The analysis examined claim costs across **diagnoses, providers, insurance types, states, and time periods**.
+* High-cost claims were specifically analyzed to identify significant claim-level cost drivers.
+* Monthly trends and claim-status distributions were analyzed to support operational reporting and monitoring.
+
+These findings demonstrate how healthcare claims data can be transformed into structured metrics and stakeholder-focused reporting.
+---
+
 ## Project Outcome
 
 This project demonstrates how a Business Analyst and Data Analyst can take a healthcare business problem from **requirements definition through data analysis and stakeholder reporting**.
