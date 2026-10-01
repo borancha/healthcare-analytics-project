@@ -9,8 +9,31 @@ This project demonstrates an end-to-end analytics workflow, from **business requ
 The objective is to transform healthcare claims data into actionable insights that can support **operational reporting, cost analysis, healthcare utilization analysis, and data-driven decision-making**.
 
 ---
+## Project Snapshot
 
+| Metric | Result |
+|---|---:|
+| Total Claims | 5,000 |
+| Total Claim Amount | $41.29M |
+| Average Claim Amount | $8,258.41 |
+| Average Length of Stay | 4.7 days |
+| Average Patient Age | 51.4 years |
+| Paid Claims | 3,907 (78.14%) |
+| Pending Claims | 711 (14.22%) |
+| Denied Claims | 382 (7.64%) |
+
+### Key Analysis Areas
+
+- 💰 Claim cost and high-cost case analysis
+- 🏥 Healthcare utilization and length-of-stay analysis
+- 👨‍⚕️ Provider and diagnosis analysis
+- 🏦 Insurance-type analysis
+- 📈 Monthly claim trends
+- 📋 Claim status analysis
+- 👥 Patient demographic analysis
 ## Business Problem
+
+---
 
 Healthcare organizations manage large volumes of patient and claims data. Without effective analysis and reporting, stakeholders may have difficulty understanding healthcare utilization, claim costs, diagnosis patterns, provider activity, insurance distribution, and changes over time.
 
@@ -135,7 +158,9 @@ The Power BI dashboard provides an interactive view of healthcare claims and pat
 
 ### Dashboard Preview
 
-![Healthcare Claims Dashboard](images/claims-dashboard.png)
+### Dashboard Preview
+
+![Healthcare Claims Dashboard](https://github.com/borancha/healthcare-analytics-project/raw/main/images/claims-dashboard.png)
 
 The Power BI source file and documentation are available in the [`PowerBI`](https://github.com/borancha/healthcare-analytics-project/tree/main/PowerBI) folder.
 
