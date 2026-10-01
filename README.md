@@ -104,18 +104,21 @@ The project followed an end-to-end analytics workflow:
 
 # Business Analyst Perspective
 
-The project demonstrates Business Analyst activities including:
+This project demonstrates an end-to-end **Business Analyst workflow**, from defining the business problem through requirements, analysis, validation, and stakeholder reporting.
 
-- Defining the business problem and analytical objectives.
-- Translating business questions into measurable requirements.
-- Identifying relevant healthcare KPIs.
-- Defining stakeholder reporting requirements.
-- Translating requirements into analytical questions.
-- Supporting data-driven decision-making.
-- Documenting assumptions and acceptance criteria.
-- Designing stakeholder-friendly reporting requirements.
+Key Business Analysis activities include:
 
-Business requirements are documented in the [`Documentation`](https://github.com/borancha/healthcare-analytics-project/tree/main/Documentation) folder.
+* Defined the business problem and analytical objectives.
+* Translated business questions into measurable requirements and KPIs.
+* Identified stakeholder reporting and information needs.
+* Defined analytical questions based on business requirements.
+* Documented assumptions and acceptance criteria.
+* Supported data validation and analytical interpretation.
+* Translated analytical results into stakeholder-friendly reporting.
+* Connected business requirements with SQL, Python, and Power BI solutions.
+
+Business requirements are documented in the [`Documentation`](https://github.com/borancha/healthcare-analytics-project/tree/main/documentation) folder.
+
 
 ---
 
@@ -155,8 +158,6 @@ The Power BI dashboard provides an interactive view of healthcare claims and pat
 - Healthcare utilization
 - Hospital length of stay
 - Trends over time
-
-### Dashboard Preview
 
 ### Dashboard Preview
 
@@ -216,8 +217,6 @@ The Python analysis files are available in the [`Python`](https://github.com/bor
 ---
 
 # Project Structure
-
-## Project Structure
 
 ```text
 healthcare-analytics-project/
@@ -299,3 +298,4 @@ The combination of **Business Analysis, SQL, Python, and Power BI** demonstrates
 Business Analyst | Data Analyst
 
 **Skills:** SQL | Python | Power BI | Tableau | Snowflake | Healthcare Analytics
+
