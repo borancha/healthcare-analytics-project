@@ -1,12 +1,12 @@
 # Healthcare Claims & Patient Analytics
 
+> **End-to-end Business Analyst & Data Analyst portfolio project using SQL, Python, and Power BI to analyze healthcare claims, costs, utilization, providers, insurance, and patient patterns.**
+
 ## Project Overview
 
-This project analyzes healthcare patient and claims data to identify patterns in healthcare utilization, medical conditions, provider activity, insurance types, claim costs, and claim status.
+This project demonstrates an end-to-end analytics workflow, from **business requirements and data profiling to SQL analysis, Python exploration, and interactive Power BI reporting**.
 
-The project demonstrates an end-to-end **Business Analyst and Data Analyst workflow**, from business requirements and data exploration through SQL analysis, Python analytics, and interactive Power BI reporting.
-
-The goal is to transform raw healthcare data into meaningful, business-focused insights that can support operational reporting and analytical decision-making.
+The objective is to transform healthcare claims data into actionable insights that can support **operational reporting, cost analysis, healthcare utilization analysis, and data-driven decision-making**.
 
 ---
 
