@@ -217,25 +217,27 @@ The Python analysis files are available in the [`Python`](https://github.com/bor
 
 # Project Structure
 
+## Project Structure
+
 ```text
 healthcare-analytics-project/
 │
-├── Documentation/
-│   └── business-requirments.md
+├── PowerBI/
+│   ├── Healthcare Dashboard
+│   └── README.md
+│
+├── SQL/
+│   ├── README.md
+│   └── healthcare_claims_analysis.sql
+│
+├── documentation/
+│   └── business-requirements.md
 │
 ├── python/
 │   ├── README.md
 │   ├── data_profiling.py
 │   ├── healthcare_claims_analysis.py
 │   └── healthcare_claims_analysis.ipynb
-│
-├── PowerBI/
-│   ├── Healthcare dashboard
-│   └── README.md
-│
-├── SQL/
-│   ├── README.md
-│   └── healthcare_claims_analysis.sql
 │
 ├── data/
 │   └── healthcare_claims.csv
@@ -244,8 +246,6 @@ healthcare-analytics-project/
 │   └── claims-dashboard.png
 │
 └── README.md
-```
-
 ---
 
 # Key Skills Demonstrated
