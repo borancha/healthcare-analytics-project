@@ -124,40 +124,38 @@ Business requirements are documented in the [`Documentation`](https://github.com
 
 # Data Analyst Perspective
 
-The project demonstrates Data Analyst capabilities including:
+The project demonstrates an end-to-end **Data Analyst workflow**, including data preparation, validation, exploratory analysis, SQL analysis, and business intelligence reporting.
 
-- Data profiling and quality assessment.
-- Exploratory data analysis.
-- SQL querying and aggregation.
-- Healthcare claims analysis.
-- Patient and provider analysis.
-- Claim cost analysis.
-- Insurance analysis.
-- Trend analysis.
-- Length-of-stay analysis.
-- High-cost claim analysis.
-- Power BI dashboard development.
-- Business-focused interpretation of analytical results.
+Key Data Analyst activities include:
+
+* Profiled the healthcare claims dataset and assessed data quality.
+* Validated data types, missing values, duplicates, and numerical fields.
+* Performed exploratory data analysis using Python and Pandas.
+* Developed SQL queries for aggregation, filtering, segmentation, and trend analysis.
+* Analyzed claim costs, utilization, diagnoses, providers, insurance types, and claim status.
+* Identified high-cost claims and healthcare utilization patterns.
+* Analyzed length of stay and monthly claim trends.
+* Developed interactive Power BI dashboards and KPI reporting.
+* Translated analytical results into business-focused insights.
 
 ---
 
 # Power BI Dashboard
 
-The Power BI dashboard provides an interactive view of healthcare claims and patient analytics.
+The Power BI dashboard provides an interactive view of healthcare claims, costs, utilization, patient demographics, providers, insurance types, and claim status.
 
-### Key Areas
+### Key Dashboard Areas
 
-- Total healthcare claims
-- Claim amounts
-- Claim status
-- Claim type
-- Diagnosis and healthcare costs
-- Provider activity
-- Insurance type
-- Patient demographics
-- Healthcare utilization
-- Hospital length of stay
-- Trends over time
+* Total claims and claim volume
+* Total and average claim amounts
+* Claim status distribution
+* Diagnosis and healthcare cost analysis
+* Provider activity
+* Insurance type analysis
+* Patient demographics
+* Length-of-stay analysis
+* Monthly claim trends
+* Healthcare utilization
 
 ### Dashboard Preview
 
@@ -169,24 +167,22 @@ The Power BI source file and documentation are available in the [`PowerBI`](http
 
 # SQL Analysis
 
-SQL was used to perform structured business analysis against the healthcare claims dataset.
+SQL was used to perform structured analysis of healthcare claims data and answer key business questions related to cost, utilization, providers, insurance, and claim outcomes.
 
-The SQL analysis includes:
+### Key SQL Analysis
 
-- Total claims
-- Total patients
-- Total claim amount
-- Average claim amount
-- Claims by diagnosis
-- Claims by provider
-- Claims by insurance type
-- Claims by state
-- Claims by claim status
-- Monthly claim trends
-- High-cost claims
-- Length-of-stay analysis
-- Claim status percentages
-- Top 10 most expensive claims
+* Total claims and total patients
+* Total and average claim amounts
+* Claims by diagnosis
+* Claims by provider
+* Claims by insurance type
+* Claims by state
+* Claims by claim status
+* Monthly claim trends
+* Claim status percentages
+* Length-of-stay analysis
+* High-cost claim identification
+* Top 10 most expensive claims
 
 The SQL queries are available in [`healthcare_claims_analysis.sql`](https://github.com/borancha/healthcare-analytics-project/blob/main/SQL/healthcare_claims_analysis.sql).
 
@@ -194,29 +190,26 @@ The SQL queries are available in [`healthcare_claims_analysis.sql`](https://gith
 
 # Python Analysis
 
-Python was used for exploratory analysis, data profiling, and data-quality assessment.
+Python was used for data profiling, quality assessment, exploratory analysis, and analytical validation.
 
-The analysis included:
+### Key Python Analysis
 
-- Dataset inspection
-- Data type validation
-- Missing-value analysis
-- Duplicate checks
-- Descriptive statistics
-- Numerical analysis
-- Categorical analysis
-- Claim cost analysis
-- Diagnosis analysis
-- Provider analysis
-- Healthcare utilization analysis
-- Trend analysis
-- Data visualization
+* Inspected dataset structure and dimensions
+* Validated data types and data quality
+* Analyzed missing values and duplicates
+* Generated descriptive statistics
+* Performed numerical and categorical analysis
+* Analyzed claim amounts and healthcare utilization
+* Examined diagnosis and provider patterns
+* Analyzed length of stay
+* Explored claim trends and distributions
+* Created analytical visualizations
+* Used Pandas and NumPy for data manipulation and analysis
 
-The Python analysis files are available in the [`Python`](https://github.com/borancha/healthcare-analytics-project/tree/main/python) folder.
-
+The Python analysis files are available in the [`python`](https://github.com/borancha/healthcare-analytics-project/tree/main/python) folder.
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 healthcare-analytics-project/
@@ -247,48 +240,53 @@ healthcare-analytics-project/
 └── README.md
 ---
 
-# Key Skills Demonstrated
+## Key Skills Demonstrated
 
 ### Business Analysis
-- Business Requirements
-- Requirements Gathering
-- Business Questions
-- KPI Definition
-- Stakeholder Reporting
-- Acceptance Criteria
-- Business Intelligence
 
-### Data Analysis
-- Healthcare Data Analysis
-- Data Profiling
-- Data Quality Assessment
-- Exploratory Data Analysis
-- SQL
-- Python
-- Pandas
-- NumPy
-- Data Visualization
+* Requirements Gathering
+* Business Requirements Documentation
+* Stakeholder Analysis
+* Business Questions & KPI Definition
+* Acceptance Criteria
+* Data & Reporting Requirements
+* UAT & Validation
 
-### BI & Reporting
-- Power BI
-- Dashboard Development
-- KPI Reporting
-- Interactive Visualization
-- Business Insights
+### Data Analytics
 
-### Tools
-- Jupyter Notebook
-- SQLite
-- GitHub
+* SQL
+* Python
+* Pandas & NumPy
+* Data Profiling
+* Data Quality Assessment
+* Exploratory Data Analysis
+* Statistical & Descriptive Analysis
+* Healthcare Claims Analytics
 
+### Business Intelligence
+
+* Power BI
+* Dashboard Development
+* KPI Reporting
+* Interactive Visualization
+* Business Insights
+* Trend & Performance Analysis
+
+### Tools & Platforms
+
+* Jupyter Notebook
+* SQLite
+* GitHub
 ---
+## Project Outcome
 
-# Project Outcome
+This project demonstrates how a Business Analyst and Data Analyst can take a healthcare business problem from **requirements definition through data analysis and stakeholder reporting**.
 
-This project demonstrates how raw healthcare claims data can be transformed into structured analysis and stakeholder-friendly business intelligence reporting.
+The project connects:
 
-The combination of **Business Analysis, SQL, Python, and Power BI** demonstrates an end-to-end approach to understanding business requirements, analyzing data, developing reporting solutions, and communicating analytical findings.
+**Business Requirements → Data Validation → SQL Analysis → Python Analysis → Power BI Reporting → Business Insights**
 
+It demonstrates practical experience in translating business questions into analytical requirements, validating and analyzing data, developing business intelligence reporting, and communicating results in a stakeholder-friendly format.
 ---
 
 ## Author
@@ -297,5 +295,4 @@ The combination of **Business Analysis, SQL, Python, and Power BI** demonstrates
 
 Business Analyst | Data Analyst
 
-**Skills:** SQL | Python | Power BI | Tableau | Snowflake | Healthcare Analytics
-
+**Core Skills:** Business Analysis | SQL | Python | Power BI | Tableau | Healthcare Analytics
