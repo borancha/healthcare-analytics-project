@@ -1,139 +1,142 @@
-\# SQL Analysis – Healthcare Claims Analytics
+# SQL Analysis — Healthcare Claims Analytics
 
+## Overview
 
+This folder contains the SQL analysis performed on the **Healthcare Claims & Patient Analytics** dataset.
 
-\## Overview
+The SQL analysis translates business questions into structured queries to evaluate healthcare claim volume, costs, utilization, providers, diagnoses, insurance types, claim status, and trends.
 
+The analysis supports the broader project workflow:
 
+**Business Requirements → SQL Analysis → Business Insights → Power BI Reporting**
 
-This folder contains SQL analysis performed on the Healthcare Claims Analytics dataset.
+---
 
+## SQL Environment
 
+| Item     | Details                          |
+| -------- | -------------------------------- |
+| Database | SQLite                           |
+| SQL File | `healthcare_claims_analysis.sql` |
+| Dataset  | `healthcare_claims.csv`          |
 
-The analysis uses SQL to answer business questions related to healthcare utilization, claim costs, providers, diagnoses, insurance types, claim status, and trends.
+---
 
-
-
-\## SQL Environment
-
-
-
-\- Database: SQLite
-
-\- SQL File: `healthcare\_claims\_analysis.sql`
-
-\- Dataset: `healthcare\_claims.csv`
-
-
-
-\## Analysis Performed
-
-
+## Analysis Performed
 
 The SQL analysis includes:
 
+1. Total number of claims
+2. Total number of unique patients
+3. Total claim amount
+4. Average claim amount
+5. Claims by diagnosis
+6. Claims by provider
+7. Claims by insurance type
+8. Claims by state
+9. Claims by claim status
+10. Monthly claim trends
+11. High-cost claim analysis
+12. Length-of-stay analysis
+13. Claim status percentages
+14. Top 10 most expensive claims
 
+---
 
-1\. Total number of claims
+## Business Questions Addressed
 
-2\. Total number of patients
+The SQL analysis was designed to answer questions such as:
 
-3\. Total claim amount
+* How many healthcare claims are in the dataset?
+* How many unique patients are represented?
+* What is the total healthcare claim amount?
+* What is the average claim amount?
+* Which diagnoses are associated with higher claim costs?
+* Which providers have the highest claim volumes or costs?
+* How do claim costs vary by insurance type?
+* Which states have the highest claim activity?
+* What is the distribution of paid, pending, and denied claims?
+* How do claim volumes and costs change over time?
+* Which claims represent the highest individual claim amounts?
+* What patterns can be observed between length of stay and claim amount?
 
-4\. Average claim amount
+---
 
-5\. Claims by diagnosis
+## SQL Techniques Demonstrated
 
-6\. Claims by provider
+The analysis demonstrates practical SQL techniques including:
 
-7\. Claims by insurance type
+* `SELECT`
+* `WHERE`
+* `GROUP BY`
+* `ORDER BY`
+* `COUNT`
+* `COUNT(DISTINCT)`
+* `SUM`
+* `AVG`
+* `ROUND`
+* `LIMIT`
+* Subqueries
+* Date and time functions
+* Aggregation
+* Filtering and sorting
+* Business-oriented analytical querying
 
-8\. Claims by state
+---
 
-9\. Claims by claim status
+## Business Analysis Applications
 
-10\. Monthly claim trends
+The SQL analysis supports several common Business Analyst and Data Analyst use cases:
 
-11\. High-cost claims
+### Cost Analysis
 
-12\. Length-of-stay analysis
+Evaluate total, average, and high-cost claims across business dimensions.
 
-13\. Claim status percentage
+### Utilization Analysis
 
-14\. Top 10 most expensive claims
+Analyze claim volume, patient counts, and length of stay.
 
+### Provider Analysis
 
+Compare claim activity and costs across healthcare providers.
 
-\## Business Questions Addressed
+### Insurance Analysis
 
+Evaluate claim activity and financial amounts across insurance types.
 
+### Trend Analysis
 
-\- How many healthcare claims are in the dataset?
+Monitor claim volume and claim amounts over time.
 
-\- How many unique patients are represented?
+### Claim Status Analysis
 
-\- What is the overall claim cost?
+Evaluate paid, pending, and denied claims and their distribution.
 
-\- What is the average claim amount?
+---
 
-\- Which diagnoses generate the highest claim costs?
+## Relationship to the Overall Project
 
-\- Which providers have the highest claim volumes and costs?
+The SQL analysis is one component of the project's end-to-end analytical workflow.
 
-\- How do claim costs vary by insurance type?
+* **Business Requirements** define the business questions and analytical needs.
+* **SQL** provides structured analysis of the healthcare claims data.
+* **Python** supports data profiling and exploratory analysis.
+* **Power BI** presents the results through interactive dashboards.
+* **Business Insights** connect the analytical results to stakeholder needs.
 
-\- Which states have the highest claim activity?
+---
 
-\- What is the distribution of claim statuses?
+## Portfolio Value
 
-\- How do claim volumes and costs change over time?
+This SQL analysis demonstrates the ability to translate business requirements into structured queries and analytical outputs.
 
-\- Which claims represent high-cost cases?
+It demonstrates practical experience with:
 
-\- How does length of stay relate to claim costs?
-
-
-
-\## SQL Skills Demonstrated
-
-
-
-\- `SELECT`
-
-\- `WHERE`
-
-\- `GROUP BY`
-
-\- `ORDER BY`
-
-\- `COUNT`
-
-\- `COUNT(DISTINCT)`
-
-\- `SUM`
-
-\- `AVG`
-
-\- `ROUND`
-
-\- `LIMIT`
-
-\- Subqueries
-
-\- Date/time functions
-
-\- Aggregation and business analysis
-
-
-
-\## Portfolio Value
-
-
-
-This SQL analysis demonstrates the ability to transform healthcare claims data into business-focused insights using structured queries and analytical techniques.
-
-
-
-The SQL results support the Power BI dashboard and Python analysis included in the overall project.
-
-
+* Healthcare data analysis
+* SQL-based business analysis
+* Data aggregation and segmentation
+* KPI calculation
+* Trend analysis
+* Cost and utilization analysis
+* Translating business questions into analytical queries
+* Supporting business intelligence reporting
